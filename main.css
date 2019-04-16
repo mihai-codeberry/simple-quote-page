@@ -1,0 +1,66 @@
+/* Resetare CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Poziționare div profil-citat */
+
+.profil-citat {
+  padding-top: 4rem;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/*Centrarea cu flexbox div body*/
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  height: 100vh;
+}
+
+.citat, .autor {
+  text-align: center;
+}
+
+.citat, .autor {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.citat {
+  font-size: 35px;
+}
+
+.autor {
+  font-size: 20px;
+}
+
+.content {
+  padding: 5% 10%;
+}
+
+/*Adaugare imagine de fundal centrata acopera integral*/
+body {
+  background: url('https://codeberryschool.github.io/simple-quote-page/assets/freedom.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+/*culoare div profile-card, margini si umbra*/
+.profil-citat {
+  background-color: hsla(0, 0%, 100%, .1);
+  border-radius: 4px;
+  box-shadow: hsla(0, 0%, 0%, .1) 10px 10px 80px;
+}
+
+ p {
+  color: blue;
+}
